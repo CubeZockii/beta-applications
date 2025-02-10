@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const password = document.getElementById("password").value; // Falsche ID vorher: "admin-pass"
 
         // Feste Login-Daten
-        const ADMIN_USER = "admin";
-        const ADMIN_PASS = "idk";
+        const ADMIN_USER = "DualAdmin";
+        const ADMIN_PASS = "G8v#Zp3q!Xr";
 
         if (username === ADMIN_USER && password === ADMIN_PASS) {
             localStorage.setItem("isAdmin", "true");
