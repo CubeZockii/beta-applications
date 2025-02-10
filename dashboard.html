@@ -20,4 +20,9 @@
 
         // Logout-Funktion
         document.getElementById("logout").addEventListener("click", () => {
-            local
+            localStorage.removeItem("isAdmin"); // Admin-Status entfernen
+            window.location.href = "admin.html"; // Zurück zur Login-Seite
+        });
+    </script>
+</body>
+</html>
