@@ -1,1 +1,1 @@
-# beta-applications
+# Beta Applications
