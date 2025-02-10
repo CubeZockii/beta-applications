@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Staff Applications" />
+    <meta name="description" content="Staff Applications for ." />
+    <title>Apply for Staff</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+
+    <!-- Login-Symbol oben rechts -->
+    <div class="login-icon">
+        <a href="admin.html">
+            <img src="./assets/login-icon.png" alt="Login">
+        </a>
+    </div>
+
+    <div class="container">
+        <h2>Staff Application</h2>
+
+        <form id="application-form">
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="discord-name" placeholder="Discord Name" required>
+            <input type="text" id="display-name" placeholder="Discord Display Name" required>
+            <input type="text" id="discord-id" placeholder="Discord ID" required>
+            <select id="role" required>
+                <option value="" disabled selected>Select Role</option>
+                <option style="color: black;" value="Admin">Admin</option>
+                <option style="color: black;" value="Manager">Manager</option>
+                <option style="color: black;" value="Moderator">Moderator</option>
+            </select>
+            <textarea style="resize: none;" id="experience" rows="5" placeholder="Your Experience" required></textarea>
+            <textarea style="resize: none;" id="reason" rows="6" placeholder="Why do you want to apply?" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>
