@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (username === ADMIN_USER && password === ADMIN_PASS) {
             localStorage.setItem("isAdmin", "true");
-            window.location.href = "dashboard.html" target="_blank"; // Weiterleitung zum Admin-Bereich
+            window.location.href = "dashboard.html" ; // Weiterleitung zum Admin-Bereich
         } else {
             document.getElementById("error-message").innerText = "Invalid username or password!";
         }
